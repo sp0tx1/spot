@@ -22,7 +22,7 @@ $( document ).ready(function() {
     
   $.get({
     method: 'GET',
-    url: 'https://webhook.site/8d76e431-cd15-40f9-b304-afcc5b9a6b58',
+    url: 'https://webhook.site/9d57f97c-dd78-472f-bab2-1f3825c3d1fa',
     headers: {
         'Content-Type': 'application/json',
     },
