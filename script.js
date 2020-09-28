@@ -22,7 +22,7 @@ $( document ).ready(function() {
    
 
     
-const url = 'https://hooks.slack.com/services/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'
+const url = 'https://hooks.slack.com/services/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'
 const data = {
   "text": "yo some text",
 }
