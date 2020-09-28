@@ -21,18 +21,7 @@ $( document ).ready(function() {
     console.log(`accessToken ${accessToken}`);
    
 
-    
-const url = 'https://hooks.slack.com/services/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'
-const data = {
-  "text": "yo some text",
-}
-axios.post(url, JSON.stringify(data), {
-  withCredentials: false,
-  transformRequest: [(data, headers) => {
-    delete headers.post["Content-Type"]
-    return data
-  }]
-})
+
     
   $.get({
     method: 'GET',
